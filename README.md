@@ -1,5 +1,3 @@
-PolkaHub. Scalable Blockchain Infrastructure
-
 Polkahub is a fast, scalable cloud infrastructure for Substrate parachains, a
 "Platform-as-a-Service (PaaS) for Substrate Nodes". Inspired by Heroku
 [https://heroku.com], it aims to create a managed container system.
