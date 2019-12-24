@@ -1,0 +1,15 @@
+[submodule "polkahub-installer"]
+	path = polkahub-installer
+	url = https://github.com/akropolisio/polkahub-installer
+[submodule "polkahub-cli"]
+	path = polkahub-cli
+	url = https://github.com/akropolisio/polkahub-cli
+[submodule "polkahub-deployer"]
+	path = polkahub-deployer
+	url = https://github.com/akropolisio/polkahub-deployer
+[submodule "cloudflare-manager"]
+	path = cloudflare-manager
+	url = https://github.com/akropolisio/cloudflare-manager
+[submodule "polkahub-backend"]
+	path = polkahub-backend
+	url = https://github.com/akropolisio/polkahub-backend
