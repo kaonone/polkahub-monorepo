@@ -39,27 +39,29 @@ Token and job (build-new-version) name can be found in the point 1 of “Running
 
 |       Name        |  Version  |                         Purpose                        |
 |:------------------|:---------:|:-------------------------------------------------------|
-|cloudflare-manager |   0.1.0   |  DNS management                                        |
-|polkahub-backend   |   0.1.0   |  Manage user command execution                         |
-|polkahub-cli       |   0.2.6   |  Process user input and trigger api calls              |
-|polkahub-deployer  |   0.1.0   |  Form docker manifest for Kubernetes API               |
-|polkahub-installer |   0.2.6   |  Shell script to install latest Polkahub CLI  build    |
+|[cloudflare-manager](https://github.com/akropolisio/cloudflare-manager) |   0.1.0   |  DNS management                                        |
+|[polkahub-backend](https://github.com/akropolisio/polkahub-backend)   |   0.1.0   |  Manage user command execution                         |
+|[polkahub-cli](https://github.com/akropolisio/polkahub-cli)      |   0.2.6   |  Process user input and trigger api calls              |
+|[polkahub-deployer](https://github.com/akropolisio/polkahub-deployer)  |   0.1.0   |  Form docker manifest for Kubernetes API               |
+|[polkahub-installer](https://github.com/akropolisio/polkahub-installer) |   0.2.6   |  Shell script to install latest Polkahub CLI  build    |
 
  
 # Docker images built
+All images available at registry.polkahub.org/`<name>`:`<tag>`
+
 ## General
-|                         Name                        | Version |                               Purpose                             |
-|:----------------------------------------------------|:-------:|:------------------------------------------------------------------|
-|registry.polkahub.org/deployer:v1                    |    v1   |  Microservice to deploy the projects in Kubernetes                |
-|registry.polkahub.org/cloudflare-manager:v1          |    v1   |  Microservice to create DNS-records in Cloudflare                 |
-|registry.polkahub.org/substrate-builder:rust-1.40-v1 |    v1   |  Docker-image with the environment for projects building in Cl    |
+|       Name        |       Tag        |                               Purpose                             |
+|:------------------|:----------------:|:------------------------------------------------------------------|
+|[deployer](https://github.com/akropolisio/polkahub-deployer)           |         v1       |  Microservice to deploy the projects in Kubernetes                |
+|[cloudflare-manager](https://github.com/akropolisio/cloudflare-manager) |         v1       |  Microservice to create DNS-records in Cloudflare                 |
+|substrate-builder  |   rust-1.40-v1   |  Docker-image with the environment for projects building in CI    |
 
 ## Pre-Built for test environment
-|                       Name                       | Version |                               Purpose                            |
-|:-------------------------------------------------|:-------:|:-----------------------------------------------------------------|
-|registry.polkahub.org/polkahub-backend:v1         |    v1   |  API image for Polkahub test launch via Docker-compose           |
-|registry.polkahub.org/polkahub-git-backend:v1     |    v1   |  Git server image for Polkahub test launch via Docker-compose    |
-|registry.polkahub.org/polkahub-jenkins:v1         |    v1   |  Jenkins image for Polkahub test launch via Docker-compose       |
-|registry.polkahub.org/balancer:v1                 |    v1   |  Jenkins image for Polkahub test launch via Docker-compose       |
-|registry.polkahub.org/polkahub-cli:v1             |    v1   |  CLI image interacting with the test environment                 |
-|registry.polkahub.org/akropolis-akropolisos:0.8.2 |    v1   |  AkropolisOS image                                               |
+|          Name           |   Tag   |                               Purpose                            |
+|:------------------------|:-------:|:-----------------------------------------------------------------|
+|[polkahub-backend](https://github.com/akropolisio/polkahub-backend)         |    v1   |  API image for Polkahub test launch via Docker-compose           |
+|polkahub-git-backend     |    v1   |  Git server image for Polkahub test launch via Docker-compose    |
+|polkahub-jenkins         |    v1   |  Jenkins image for Polkahub test launch via Docker-compose       |
+|balancer                 |    v1   |  Jenkins image for Polkahub test launch via Docker-compose       |
+|[polkahub-cli](https://github.com/akropolisio/polkahub-cli)             |    v1   |  CLI image interacting with the test environment                 |
+|akropolis-akropolisos    |  0.8.2  |  AkropolisOS image                                               |
