@@ -47,9 +47,9 @@ Token and job (build-new-version) name can be found in the point 1 of “Running
 |[cloudflare-manager](https://github.com/akropolisio/cloudflare-manager) |   0.1.0   |  DNS management                                        |
 |[mailgun-sender](https://github.com/akropolisio/mailgun-sender.git) |   0.1.0   |  Email sender via Mailgun                                  |
 |[polkahub-backend](https://github.com/akropolisio/polkahub-backend)   |   0.2.0   |  Manage user command execution                         |
-|[polkahub-cli](https://github.com/akropolisio/polkahub-cli)      |   0.2.7   |  Process user input and trigger api calls              |
+|[polkahub-cli](https://github.com/akropolisio/polkahub-cli)      |   0.3.0   |  Process user input and trigger api calls              |
 |[polkahub-deployer](https://github.com/akropolisio/polkahub-deployer)  |   0.1.0   |  Form docker manifest for Kubernetes API               |
-|[polkahub-installer](https://github.com/akropolisio/polkahub-installer) |   0.2.7   |  Shell script to install latest Polkahub CLI  build    |
+|[polkahub-installer](https://github.com/akropolisio/polkahub-installer) |   0.3.0   |  Shell script to install latest Polkahub CLI  build    |
 
 
 # Docker images built
@@ -61,7 +61,7 @@ All images available at registry.polkahub.org/`<name>`:`<tag>`
 |[deployer](https://github.com/akropolisio/polkahub-deployer)           |         v1       |  Microservice to deploy the projects in Kubernetes                |
 |[cloudflare-manager](https://github.com/akropolisio/cloudflare-manager) |         v1       |  Microservice to create DNS-records in Cloudflare                 |
 |[mailgun-sender](https://github.com/akropolisio/mailgun-sender.git) |   v1   |  Email sender via Mailgun                                  |
-|substrate-builder  |   rust-1.40-v2   |  Docker-image with the environment for projects building in CI    |
+|substrate-builder  |   rust-1.41-v1   |  Docker-image with the environment for projects building in CI    |
 
 ## Pre-Built for test environment
 |          Name           |   Tag   |                               Purpose                            |
