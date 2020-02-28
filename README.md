@@ -61,7 +61,7 @@ All images available at registry.polkahub.org/`<name>`:`<tag>`
 |[deployer](https://github.com/akropolisio/polkahub-deployer)           |         v2       |  Microservice to deploy the projects in Kubernetes                |
 |[cloudflare-manager](https://github.com/akropolisio/cloudflare-manager) |         v1       |  Microservice to create DNS-records in Cloudflare                 |
 |[mailgun-sender](https://github.com/akropolisio/mailgun-sender.git) |   v1   |  Email sender via Mailgun                                  |
-|substrate-builder  |   rust-1.40-v2   |  Docker-image with the environment for projects building in CI    |
+|substrate-builder  |   rust-1.41-v3   |  Docker-image with the environment for projects building in CI    |
 
 ## Pre-Built for test environment
 |          Name           |   Tag   |                               Purpose                            |
