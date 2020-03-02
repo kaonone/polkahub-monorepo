@@ -16,3 +16,6 @@
 [submodule "mailgun-sender"]
 	path = mailgun-sender
 	url = https://github.com/akropolisio/mailgun-sender.git
+[submodule "polkahub-frontend"]
+	path = polkahub-frontend
+	url = https://github.com/akropolisio/polkahub-frontend
