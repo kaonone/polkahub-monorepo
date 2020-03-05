@@ -172,7 +172,9 @@ All images available at registry.polkahub.org/`<name>`:`<tag>`
 |polkahub-jenkins         |    v1   |  Jenkins image for Polkahub test launch via Docker-compose       |
 |balancer                 |    v3   |  Jenkins image for Polkahub test launch via Docker-compose       |
 |[polkahub-cli](https://github.com/akropolisio/polkahub-cli)             |    v3   |  CLI image interacting with the test environment                 |
-|akropolis-akropolisos    |  0.8.2  |  AkropolisOS image                                               |
+|akropolis-akropolisos    |  0.8.2  |  AkropolisOS Node image                                               |
+|stimulating-plant-3173-alexander | v0.4 | Polkadot-Alexander  Node Image                              |
+|decisive-picture-8329-kusama | v0.7 | Kusama Node Image                                               |
 |polkahub-frontend         | v1     |  Web portal                                                      |
 
 ![Web3 suported](https://github.com/akropolisio/polkahub-backend/blob/master/img/web3%20foundation_grants_badge_black.png "Project supported by web3 foundation grants program")
