@@ -1,3 +1,5 @@
+![Polkahub](https://github.com/akropolisio/polkahub-monorepo/blob/master/images/frontend/polkahub-main.png "Polkahub main interface")
+
 # Introduction
 PolkaHub aims to create a managed container system, with one-click services for deploying and running different parachain nodes.
 The proposed system enables automatic updates and resource management for running nodes, additionally providing templates for launching parachains.
