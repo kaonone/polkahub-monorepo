@@ -173,5 +173,6 @@ All images available at registry.polkahub.org/`<name>`:`<tag>`
 |balancer                 |    v3   |  Jenkins image for Polkahub test launch via Docker-compose       |
 |[polkahub-cli](https://github.com/akropolisio/polkahub-cli)             |    v3   |  CLI image interacting with the test environment                 |
 |akropolis-akropolisos    |  0.8.2  |  AkropolisOS image                                               |
+|polkahub-frontend         | v1     |  Web portal                                                      |
 
 ![Web3 suported](https://github.com/akropolisio/polkahub-backend/blob/master/img/web3%20foundation_grants_badge_black.png "Project supported by web3 foundation grants program")
