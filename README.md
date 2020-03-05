@@ -15,6 +15,92 @@ The proposed system enables automatic updates and resource management for runnin
 9. No need to rely on DevOps and System Administration for managing parachain’s infrastructure - thanks to PolkaHub. You only need git, command line and a simple web-interface. 
 
 
+# Quick Start
+
+# Install CLI
+
+MacOS / Linux
+You can just use bash script:
+```
+$ bash <(curl http://get.polkahub.org/ -L)
+```
+This will install polkahub binary in your /usr/local/bin(MacOS) or /usr/bin(Linux) directory
+Then you can use it:
+```
+$ polkahub <action> [ARGS]
+```
+Or use docker image like this:
+```
+$ mkdir $HOME/.polkahub
+$ docker run --rm -ti -v $HOME/.polkahub:/tmp/home -e POLKAHUB_HOME=/tmp/home registry.polkahub.org/polkahub-cli:v3 <action> [ARGS]
+```
+
+# Usage CLI
+
+## Authentication
+
+```bash
+$ polkahub auth
+Email: user@example.com
+Password:
+
+Login user with email user@example.com
+ ⠂⠂⠂
+done
+```
+
+Use email and password created via https://polkahub.org or create new email and password via CLI (see Registration section)
+
+
+## Registration
+
+```bash
+$ polkahub register
+Email: user@example.com
+Password:
+Confirm Password:
+
+Registration new user with email user@example.com
+ ⡀⡀⡀
+done
+```
+
+## Create a new project
+
+```bash
+$ polkahub create akropolisos
+ 
+ ⠁⠁⠁
+done
+https     -> "https://steadfast-surprise-6647-akropolisos-rpc.polkahub.tech"
+ws        -> "wss://steadfast-surprise-6647-akropolisos.polkahub.tech"
+remote  -> "https://git.polkahub.org/steadfast-surprise-6647-akropolisos.git"
+```
+Then you can add **remote** to your project, push it and it will automatically start CI build.
+
+## Find a project
+
+```bash
+$ polkahub find akropolisos
+ 
+Looking for akropolisos project
+ ⠁⠁⠁
+steadfast-surprise-6647/akropolisos@0.8.2
+steadfast-surprise-6647/akropolisos@v1
+steadfast-surprise-6647/akropolisos@v2
+```
+
+## Install a exists project
+
+```bash
+$ polkahub install steadfast-surprise-6647/akropolisos@0.8.2 -a alexander 
+ 
+Deploying akropolisos project with version 0.8.2
+ ⠁⠁⠁
+done
+https  -> "https://frightened-brick-8071-alexander-rpc.polkahub.tech"
+ws     -> "wss://frightened-brick-8071-alexander.polkahub.tech"
+```
 
 
 # Deploying private Polkahub
