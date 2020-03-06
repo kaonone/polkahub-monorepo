@@ -8,13 +8,12 @@ The proposed system enables automatic updates and resource management for runnin
 
 1. Polkahub is a fast, scalable blockchain infrastructure component for Substrate parachains.
 2. Polkahub provides parachain developers with the ability to launch and manage network infrastructure using our command line utility and the ability to provide public node access.
-3. PolkaHub gives users the opportunity to get free cloud access to the diverse Polkadot ecosystem.
-4. Polkahub provides developers with a unified standard for packaging and deploying applications to cloud infrastructure. 
-5. Polkahub provides the functionality to track and control the parachain’s versions. So in the event of critical bugs arising, developers can update or roll back the version of the parachain using simple commands (via running specific commands in a command line). 
-6. Polkahub supports Substrate node deployment to remote servers or cloud infrastructure via git. 
-7. Polkahub infrastructure is based on Docker Container Services such as Kubernetes.
-8. Docker provides high-level interfaces for isolated environments within the node's execution. Easily scaled, managed and updated.
-9. No need to rely on DevOps and System Administration for managing parachain’s infrastructure - thanks to PolkaHub. You only need git, command line and a simple web-interface. 
+3. Polkahub provides developers with a unified standard for packaging and deploying applications to cloud infrastructure. 
+4. Polkahub provides the functionality to track and control the parachain’s versions. So in the event of critical bugs arising, developers can update or roll back the version of the parachain using simple commands (via running specific commands in a command line). 
+5. Polkahub supports Substrate node deployment to remote servers or cloud infrastructure via git. 
+6. Polkahub infrastructure is based on Docker Container Services such as Kubernetes.
+7. Docker provides high-level interfaces for isolated environments within the node's execution. Easily scaled, managed and updated.
+8. No need to rely on DevOps and System Administration for managing parachain’s infrastructure - thanks to PolkaHub. You only need git, command line and a simple web-interface. 
 
 
 # Quick Start
