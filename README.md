@@ -33,7 +33,7 @@ $ polkahub <action> [ARGS]
 Or use docker image like this:
 ```
 $ mkdir $HOME/.polkahub
-$ docker run --rm -ti -v $HOME/.polkahub:/tmp/home -e POLKAHUB_HOME=/tmp/home registry.polkahub.org/polkahub-cli:v3 <action> [ARGS]
+$ docker run --rm -ti -v $HOME/.polkahub_docker:/tmp/home -e POLKAHUB_HOME=/tmp/home registry.polkahub.org/polkahub-cli:v3 <action> [ARGS]
 ```
 
 # Usage CLI
